@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<p>Hi</p>
 </body>
 <style   
 body{ 
@@ -99,7 +99,21 @@ body{
     body{ 
         overflow-y : auto; 
     } 
-
+    #parent{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    #child{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: -17px; /* Increase/Decrease this value for cross-browser compatibility */
+        overflow-y: scroll;
+    }
 
 
 
